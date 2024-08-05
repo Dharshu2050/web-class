@@ -1,0 +1,25 @@
+h3{
+    color: blueviolet;
+}
+div{
+    background: #000;
+    width: 50%;
+    height: 200%;
+}
+h4{
+    color: green;
+}
+
+.demo{
+    background:#000;
+    color: antiquewhite;
+    text-align: center;
+    font-weight: 400%;
+}
+*{
+    background: #e30c0c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.dark{
+    color: bisque !important /* must want ahh important use panranum*/;
+}
