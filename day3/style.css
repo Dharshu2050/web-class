@@ -1,0 +1,50 @@
+.hello{
+    background-color: #dc0b0b;
+    width: 200%;
+    height: 50px;
+}
+.world{
+    background-color: aqua;
+    width: 150%;
+    height: 75px;
+}
+.demo{
+    /*display -block defult valuse its mean no change happen  display - inline oreah line ah varathu its doesnt consider it height and width 
+    display inline-block its include its height and with 
+    rendu div class name main div class name conntect irukanum
+    display=none display panra varaikum irukum aprm none aairum */
+    display: inline-block;
+}
+.img{
+    /*float right img or content ah left and right ku move pana vaikirathu
+    text align justify antha img and content ethamathiri it will be atjusted*/
+    float: right;
+    padding-left: 10px;
+    
+}
+.text{
+    text-align: justify;
+   
+}
+.box{
+    background-color: #0e0d0d;
+    color:#dc0b0b ;
+    height: 100px;
+    width: 50px;
+    /*marign container- out side of container- la ieunthu top bottom ellam 10px mari irukum
+    padding inside of container irunthu changr aagum
+    broder soild -straint line dotted-dot dot line */
+    margin: 10px;
+    padding:25px ;
+
+    border: 5px solid blueviolet;
+}
+.btn{
+    text-decoration: none;
+    background-color: green;
+    margin: 5px;
+    padding: 5px;
+    /*border radius -button suthi oru curvy varum*/
+    border-radius: 3px;
+    color: aliceblue;
+}
