@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>style</title>
+</head>
+<body>
+    <h1>Change background color</h1>
+    
+    <select id="color" onchange="changeColor()">
+        <!--value -use some reforence for opertor-->
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="yellow">yellow</option>
+    </select>
+    <br>
+    <div id="box" style="width: 150px; margin: 100px; background-color: #ee6969;">
+
+    </div>
+    <script>
+      function changeColor(){
+        var color=document.getElementById("color").values
+        document.getElementById("box").style.backgroundColor=color;
+      }
+    </script>
+    
+</body>
+</html>

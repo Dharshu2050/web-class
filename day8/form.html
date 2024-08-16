@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form Validation example</h1>
+    <!--onsumbit -sumbit pana pothu alert varathuku return -value will be return-->
+    <form onsubmit="return form()">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <input type="submit">
+    </form>
+    <script>
+        //alrt mes 
+        function form(){
+            var name=document.getElementById("name").value
+            if(name==""){
+                alert("plz fill the name")
+            }else{
+                alert("name is" +name)
+            }
+        }
+    </script>
+</body>
+</html>
