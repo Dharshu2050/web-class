@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Workshop Registration Form</title>
     <link rel="stylesheet" href="/project/style.css">
+    
+    <script src="/project/main.js" >
+
+    </script>
 </head>
 <body>
    
 
-    <form action="" id="form">
+    <form  id="form" onsubmit="name()">
         <h1>Workshop Registration Form</h1>
         <div class="input-group">
         <label for="name">1.Full Name</label>
-        <input type="text" placeholder="First Name" required>
+        <input type="text" placeholder="First Name" name="name" id="First" required>
         <input type="text" placeholder="Last Name" required>
         </div>
         
@@ -31,11 +35,11 @@
         <input type="text" placeholder="city">
         </div>
         
-
+         <input type="submit">
         </div>
-        <button type="button">Sumbit</button>
+        <!-- <button type="button">Sumbit</button> -->
     </form>
 
-    <script src="/project/style.css"></script>
+    
 </body>
 </html>
