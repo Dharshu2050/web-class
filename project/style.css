@@ -1,43 +1,61 @@
-*{
-    
-    
-    font-family:cursive;
-
-}
-
+/* .page{
+    /* background-image: url(./img/bgimg.avif);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
 body{
-    /* width: 100vw;
-    height: 100vw;
-    display: grid;
-    place-items: center; 
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 8%, rgba(0,134,255,1) 100%); */
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 47%, rgba(148,187,233,1) 100%);
-}
+  /* background: rgb(238,174,202);
+  background: radial-gradient( rgb(231, 10, 106) 47%, rgb(2, 37, 77));
+  background-repeat: no-repeat; */
+  background-image: linear-gradient( rgb(231, 10, 106) , rgb(2, 37, 77));
+ background-repeat: no-repeat;
+ height: 100vh;
+ 
 
-.demo{
-    margin: 150px;
-    padding: 150px;
-    display: block;
-    white-space: pre;
-}
-
-#form{
-    width: 400px;
-    margin: 20vh auto 0 auto;
-    border-radius: 5px;
-    padding: 30px;
-}
-
-h1{
-    text-align: center;
-    color:#043267 ;
-    font-family:serif;
 
 }
 
-#from button{
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900 */
+
+#work {
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 400 to 900 */
+  
+  /*#font{
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal; */
+#font {
+        font-family: "Noto Sans Hanunoo", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+  
+  .page{
+      text-align: center;
+  
+  }
+   
+  #img{
+      width: 50px;
+  }
+  
+  #name{
+    text-align:right;
+  }
+
+  .sub{
+    text-decoration: none;
+  }
+
+  .sumbit{
     background-color:#043267 ;
     color: white;
     border: 1px soild #043267 ;
@@ -49,22 +67,4 @@ h1{
     width: 100%;
 }
 
-.input-group{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 25px #043267;
-    
 
-}
-
-.input-group input{
-    border-radius: 5px;
-    font-size: 20px;
-    margin-top: 5px;
-    padding: 5px;
-    border: 1px soild ;
-}
-
-.input-group input:focus{
-    outline: 0;
-}

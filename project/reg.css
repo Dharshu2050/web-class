@@ -1,0 +1,65 @@
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 47%, rgba(148,187,233,1) 100%);
+}
+
+*{
+    font-family:cursive;
+}
+
+
+
+.demo{
+    margin: 150px;
+    padding: 150px;
+    display: block;
+    white-space: pre;
+}
+
+#form{
+    width: 450px;
+    margin: 10vh auto 10vh auto;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+    color:#043267 ;
+    font-family:serif;
+
+}
+
+#sumbit{
+    background-color:#043267 ;
+    color: white;
+    border: 1px soild #043267 ;
+    padding: 10px;
+    margin:  20px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px #043267;
+    
+    padding: 25px;
+    
+}
+
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px soild ;
+}
+
+.input-group input:focus{
+    outline: 0;
+}
+
